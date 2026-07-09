@@ -1,4 +1,4 @@
-# Hid
+# Hig Landing Page
 
 A simple static landing page for Hig.
 
