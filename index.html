@@ -3,124 +3,70 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hig — AI Video, Face Swap & Image Generator</title>
-  <meta name="description" content="Hig is an AI creative studio for generating videos, face swaps, video edits, and beautiful images in seconds." />
-  <meta property="og:title" content="Hig — Create. Edit. Inspire." />
-  <meta property="og:description" content="AI videos, face swaps, video editing, and image generation in one clean app." />
-  <meta property="og:image" content="assets/logo.png" />
-  <meta name="theme-color" content="#c8ff00" />
-  <link rel="icon" href="assets/logo.png" />
+  <title>Hig — Make what you imagine</title>
+  <meta name="description" content="Create AI videos and images, transform photos, explore templates, and direct motion with Hig." />
+  <meta property="og:title" content="Hig — Make what you imagine" />
+  <meta property="og:description" content="Your creative studio for AI images, video, and motion." />
+  <meta property="og:image" content="https://higvid.com/assets/app-icon.png" />
+  <meta name="theme-color" content="#080a08" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Hig home">
-      <img src="assets/logo.png" alt="Hig logo" />
-    </a>
+    <a class="brand" href="index.html" aria-label="Hig home"><img src="assets/app-icon.png" alt="" /><span>Hig<span class="brand-dot">.</span></span></a>
     <nav class="nav" aria-label="Main navigation">
-      <a href="#features">Features</a>
+      <a href="features.html">Features</a>
       <a href="#how">How it works</a>
-      <a href="#download">Download</a>
-      <a href="privacy.html">Privacy</a>
       <a href="contact.html">Contact</a>
     </nav>
-    <a class="header-cta" href="#download">Try Hig Now <span>→</span></a>
+    <a class="header-cta" href="#download">Get the app <span aria-hidden="true">↗</span></a>
+    <details class="mobile-menu"><summary>Menu <span aria-hidden="true">☰</span></summary><nav aria-label="Mobile navigation"><a href="index.html">Home</a><a href="features.html">Features</a><a href="index.html#how">How it works</a><a href="index.html#download">Get the app</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></nav></details>
   </header>
 
-  <main id="top">
-    <section class="hero">
+  <main id="main">
+    <section class="hero" id="top">
       <div class="hero-copy">
-        <p class="eyebrow">AI creative studio</p>
-        <h1>Create.<br>Edit.<br><span>Inspire.</span></h1>
-        <p class="lead">Generate videos, swap faces, edit clips, and create beautiful images from simple prompts.</p>
-        <div class="hero-actions">
-          <a class="primary-btn" href="#download">Start Creating <span>→</span></a>
-          <a class="secondary-btn" href="#features">See Features</a>
-        </div>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Your creative studio</p>
+        <h1>Make what you <span>imagine.</span></h1>
+        <p class="lead">Turn a small idea into something impossible to scroll past. Create images and video, transform photos, and make every move your own.</p>
+        <div class="hero-actions"><a class="primary-btn" href="#download">Get Hig <span aria-hidden="true">↗</span></a><a class="secondary-btn" href="features.html">Explore features <span aria-hidden="true">→</span></a></div>
+        <p class="hero-note">IMAGE <span>✳</span> VIDEO <span>✳</span> MOTION</p>
       </div>
-
-      <div class="phone-stage" aria-label="Hig app preview">
-        <div class="phone phone-left">
-          <img src="assets/image-builder.png" alt="Hig image builder screen" />
-        </div>
-        <div class="phone phone-main">
-          <img src="assets/video-ready.png" alt="Generated video ready screen" />
-        </div>
-        <div class="phone phone-right">
-          <img src="assets/video-editor.png" alt="Hig video editor screen" />
-        </div>
+      <div class="hero-visual">
+        <div class="hero-orbit" aria-hidden="true"></div>
+        <img src="assets/feature-before-after.webp" alt="Hig before and after creative result on an iPhone" width="946" height="2048" fetchpriority="high" />
+        <div class="floating-label floating-label-top"><span>✦</span> YOUR IDEA, REIMAGINED</div>
+        <div class="floating-label floating-label-bottom"><span class="status-dot"></span> MADE WITH HIG</div>
       </div>
     </section>
 
     <section class="features" id="features">
-      <div class="section-heading">
-        <p class="eyebrow">Everything in one app</p>
-        <h2>Simple tools. Powerful results.</h2>
+      <div class="section-heading section-heading-split">
+        <div><p class="eyebrow">Inside Hig</p><h2>More ways to <span>make it yours.</span></h2></div>
+        <p>From the first spark of an idea to the final result, find your favorite way to create.</p>
       </div>
-
       <div class="feature-grid">
-        <article class="feature-card">
-          <div class="icon">▶</div>
-          <h3>AI Video Generator</h3>
-          <p>Turn a short prompt into cinematic video content.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon">◉</div>
-          <h3>Face Swap</h3>
-          <p>Create realistic face swaps for fun, ads, and social content.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon">▧</div>
-          <h3>AI Image Creator</h3>
-          <p>Generate high-quality images from ideas or references.</p>
-        </article>
+        <a class="feature-card" href="features.html#transform"><div class="feature-card-media"><img src="assets/feature-before-after.webp" alt="Before and after photo transformation" width="946" height="2048" loading="lazy" /></div><div class="feature-card-content"><span class="feature-number">01 / TRANSFORM</span><h3>Before meets after.</h3><p>Use a photo as a starting point and see where your imagination takes it.</p><span class="feature-arrow" aria-hidden="true">↗</span></div></a>
+        <a class="feature-card" href="features.html#motion"><div class="feature-card-media"><img src="assets/feature-motion.webp" alt="Motion Control screen with a selection of movements" width="946" height="2048" loading="lazy" /></div><div class="feature-card-content"><span class="feature-number">02 / ANIMATE</span><h3>Move with intention.</h3><p>Choose how a scene moves with simple Motion Control options.</p><span class="feature-arrow" aria-hidden="true">↗</span></div></a>
+        <a class="feature-card" href="features.html#templates"><div class="feature-card-media"><img src="assets/feature-templates.webp" alt="Creative templates inside the Hig app" width="946" height="2048" loading="lazy" /></div><div class="feature-card-content"><span class="feature-number">03 / EXPLORE</span><h3>Find your next look.</h3><p>Browse creative templates and start with the style that feels right.</p><span class="feature-arrow" aria-hidden="true">↗</span></div></a>
       </div>
+      <a class="text-link" href="features.html">See all features <span aria-hidden="true">↗</span></a>
     </section>
 
     <section class="showcase">
-      <div class="showcase-copy">
-        <p class="eyebrow">Built for creators</p>
-        <h2>From idea to visual in seconds.</h2>
-        <p>Hig keeps the interface clean so users focus on one thing: creating. Prompt, upload a reference, choose duration, and generate.</p>
-      </div>
-      <div class="showcase-media">
-        <img src="assets/image-result.png" alt="AI image generation result in Hig" />
-      </div>
+      <div class="showcase-copy"><p class="eyebrow">A studio in your pocket</p><h2>Go from idea to <span>image.</span></h2><p>Describe what you have in mind, add a reference if you like, and create a visual that feels uniquely yours.</p><a class="text-link" href="features.html#more-tools">Meet the creative tools <span aria-hidden="true">↗</span></a></div>
+      <div class="showcase-media"><img src="assets/image-result.png" alt="A generated image result displayed in the Hig app" width="749" height="754" loading="lazy" /></div>
     </section>
 
-    <section class="steps" id="how">
-      <div class="section-heading">
-        <p class="eyebrow">How it works</p>
-        <h2>Three steps. No complexity.</h2>
-      </div>
-      <div class="step-grid">
-        <div class="step"><span>01</span><h3>Write your prompt</h3><p>Describe the video, image, or edit you want.</p></div>
-        <div class="step"><span>02</span><h3>Add references</h3><p>Upload a photo, video, or inspiration image.</p></div>
-        <div class="step"><span>03</span><h3>Generate</h3><p>Let Hig create the final result for you.</p></div>
-      </div>
-    </section>
+    <section class="steps" id="how"><div class="section-heading"><p class="eyebrow">How it works</p><h2>Start simple. Go <span>anywhere.</span></h2></div><div class="step-grid"><div class="step"><span>01</span><h3>Choose a direction</h3><p>Start with a prompt, a photo, or a template that catches your eye.</p></div><div class="step"><span>02</span><h3>Make it your own</h3><p>Add your idea, upload a reference, or choose how your scene moves.</p></div><div class="step"><span>03</span><h3>See what you made</h3><p>Preview your result and keep exploring new possibilities.</p></div></div></section>
 
-    <section class="download" id="download">
-      <div>
-        <p class="eyebrow">Download Hig</p>
-        <h2>Start creating with Hig today.</h2>
-        <p>Replace the buttons below with your real App Store and Google Play links.</p>
-      </div>
-      <div class="store-buttons">
-        <a href="https://apps.apple.com/us/app/id1375267426" class="store-btn" aria-label="Download on the App Store"><small>Download on the</small><strong>App Store</strong></a>
-      </div>
-    </section>
+    <section class="download" id="download"><div><p class="eyebrow">Ready when you are</p><h2>Your next idea <span>starts here.</span></h2><p>Bring your imagination to Hig and start creating.</p></div><a href="https://apps.apple.com/us/app/id1375267426" class="store-btn" aria-label="Download Hig on the App Store"><span class="apple-symbol" aria-hidden="true">↓</span><span><small>Download on the</small><strong>App Store</strong></span><span aria-hidden="true">↗</span></a></section>
   </main>
 
-  <footer class="footer">
-    <img src="assets/logo.png" alt="Hig logo" />
-    <p>© <span id="year"></span> Hig. All rights reserved.</p>
-    <div>
-      <a href="privacy.html">Privacy</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </footer>
-
+  <footer class="footer"><a class="brand footer-brand" href="index.html" aria-label="Hig home"><img src="assets/app-icon.png" alt="" /><span>Hig<span class="brand-dot">.</span></span></a><p>© <span id="year"></span> Hig. Made for what’s next.</p><nav aria-label="Footer navigation"><a href="features.html">Features</a><a href="privacy.html">Privacy</a><a href="contact.html">Contact</a></nav></footer>
   <script src="script.js"></script>
 </body>
 </html>
